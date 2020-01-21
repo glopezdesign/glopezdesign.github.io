@@ -1,0 +1,43 @@
+.topnav {
+	background: #231f20;
+	text-align: right;
+	padding: 40px 41px;
+}
+
+.topnav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#logo {
+	float: left;
+}
+
+.project {
+	background: lightgray;
+	margin: 25px;
+	margin-right: 55%;
+	padding: 55px;
+	text-align: center;
+}
+
+#cta {
+	background: white;
+	text-decoration: none;
+	color: #000000;
+	margin: 10px;
+	padding: 5px;
+	position: relative; top: 15px;
+
+}
+
+.contact_links {
+	background: #231f20;
+	padding-bottom: 40px 41px;
+	text-align: center;
+	position: relative; bottom: 0%;
+}
+
+.contact_links img{
+	width: 50px;
+}
