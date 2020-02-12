@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+
+nav {
+	background: #231f20;
+	text-align: right;
+	padding: 20px 20px;
+}
+
+.pages {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	background: #231f20;
+	display: block;
+	float: right;
+	padding: 20px;
+
+}
+
+.pages:hover {
+	background: #fff;
+	color: #000;
+
+}
+
+#logo {
+	float: left;
+	width: 20%;
+
+}
+
+#logo img {
+	width: 100%;
+}
+
+.project_bg {
+	background-image: linear-gradient(to right, rgba(0,0,0,.55), rgba(0,0,0,0)), url("images/spiderverse_edited.jpg");
+	background-size: 1920px;
+	background-repeat: no-repeat;
+	padding: 10px 0;
+}
+
+.project_title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size: 32px;
+	line-height: 1em;
+}
+
+.project_description {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.25em;
+}
+
+.project {
+	background-color: rgba(211,211,211,.5);
+	margin: 25px;
+	margin-right: 55%;
+	padding: 55px;
+	text-align: center;
+}
+
+#cta {
+	background: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #000000;
+	margin: 10px;
+	padding: 5px;
+	position: relative; top: 15px;
+
+}
+
+.columns {
+	background-color: rgba(211,211,211,.5);
+	float: left;
+	width: 30%;
+	padding: 10px 10px;
+	/*height: 300px;*/
+	margin-left: 1%;
+}
+
+.features {
+	display: table;
+	margin: 10px;
+}
+
+.columns img {
+	width: 100%;
+}
+
+.feature_title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size: 24px;
+	text-align: center;
+}
+
+.feature_description {
+	font-family: "Montserrat", sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	line-height: 1.5em;
+	margin: 1.5em;
+	text-align: center;
+}
+
+footer {
+	background: #231f20;
+	padding: 30px 31px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+footer img{
+	width: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.clearfix:after { 
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+
+
