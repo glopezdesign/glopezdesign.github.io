@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
 
+
 nav {
 	background: #231f20;
 	text-align: right;
-	padding: 40px 41px;
+	padding: 20px 41px;
 }
 
 nav a {
@@ -13,15 +14,16 @@ nav a {
 	text-decoration: none;
 	color: #ffffff;
 	margin-right: 10px;
-	margin-left: 10px;
+	margin-left: 10px
 }
 
-#logo img{
+#logo {
 	float: left;
-	width: 250px;
-	position: absolute;
-	top: 15px;
-	left: 22px;
+	width: 20%;
+}
+
+#logo img {
+	width: 100%;q
 }
 
 .project_bg {
@@ -111,3 +113,15 @@ footer img{
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+.clearfix:after { 
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+
+
